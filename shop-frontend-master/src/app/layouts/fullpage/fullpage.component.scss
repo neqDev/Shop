@@ -1,0 +1,10 @@
+:host{
+    display: flex; // flex layout bez tego nie zadziala
+    flex-direction: column; // kierunek layoutu  czyli jeden pod drugim
+    width: 1200px;
+    margin: 0 auto; // layout wysrodkowany
+    height: 100%;
+}
+.content{
+    padding: 20px;
+}

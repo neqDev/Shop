@@ -1,0 +1,30 @@
+@import 'variables.scss';
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.content {
+    padding: 20px;
+    background: $lightgray;
+}
+
+.snack-bar-bg-color-ok {
+    background-color: #009900;
+}
+
+.mat-mdc-snack-bar-container {
+    &.blue-snackbar {
+        --mdc-snackbar-container-color: #2196f3;
+        --mat-mdc-snack-bar-button-color: #fff;
+        --mdc-snackbar-supporting-text-color: #fff;
+    }
+}
+
+table {
+    width: 100%;
+}

@@ -1,0 +1,10 @@
+// przekeirowanie żadania
+{
+    "/api": { // prefix na backend
+        "target": "http://localhost:8080",
+        "secure": false, // bo to nie jest https
+        "pathRewrite": {
+            "^/api": ""
+        }
+    }
+}

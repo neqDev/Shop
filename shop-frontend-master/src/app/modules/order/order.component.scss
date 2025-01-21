@@ -1,0 +1,36 @@
+.orderForm{
+    width: 400px;
+}
+.erroMessage{
+    color: red;
+}
+.orderButton{
+    font-size: 22px;
+    width: 250px;
+}
+.shipmentRadioButton{
+    margin: 15px 0;
+    font-size: 18px;
+}
+.shipment-2{
+    margin-left: 10px;
+    font-weight: bolder;
+}
+.orderTotal{
+    background: white;
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+    font-size: 22px;
+    font-weight: 500;
+}
+.orderTotalValue{
+    font-size: 24px;
+    font-weight: 700;    
+}
+
+.paymentNote{
+    font-weight: 700;
+}
+.loginInfo{
+    font-size: 18px;
+}

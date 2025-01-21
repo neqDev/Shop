@@ -1,0 +1,24 @@
+:host{
+    display: flex; // flex layout bez tego nie zadziala
+    flex-direction: column; // kierunek layoutu  czyli jeden pod drugim
+    height: 100%;
+}
+.content{
+    background: #f9f9f9;
+    padding: 20px;
+}
+header{
+    background: #292b31;
+    padding: 20px;
+    color: #fff;
+}
+.sidebar{
+    background: #292b31;
+    padding: 20px;
+    a{
+        color: #fff;
+    }
+}
+.subMenuLink{
+    color: grey;
+}

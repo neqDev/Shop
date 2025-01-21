@@ -1,0 +1,13 @@
+<header fxLayoutAlign="start center">
+    <div fxFlex fxLayoutAlign="start end" fxLayoutGap="20" >
+        <mat-icon  color="accent" class="logoicon">store</mat-icon>
+        <span class="logo">{{title}}</span>
+    </div>
+    <div fxLayoutGap="10" fxLayoutAlign="start center">
+        <button mat-button routerLink="">Strona główna</button>
+        <button mat-button routerLink="/products">Produkty</button> <!-- aby zadziałał routing trzeba dodac znacznik routerLink (taki sam jak w routingu)-->
+        <span></span>
+        <button mat-button routerLink="/login"><span *ngIf="!isLoggedIn">Zaloguj</span><span *ngIf="isLoggedIn">Profile</span></button>
+        <a routerLink="/cart"><mat-icon color="accent" class="shoppingBasket" matBadge="{{cartProductCounter}}" matBadgeColor="warn">shopping_basket</mat-icon></a>
+    </div>
+</header>
